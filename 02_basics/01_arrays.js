@@ -4,21 +4,21 @@ const myArr = [0, 1, 2, 3, 4, 5]  //1st array declear with number bases
 const myHeors = ["shaktiman", "naagraj", "spider-man"]
 
 const myArr2 = new Array(1, 2, 3, 4)
-// console.log(myArr[1]); //zero base indexing
+// console.log(myArr[1]); //zero base indexing  //arrays in javascript for array-copy operation are created shallow copy
 
 // Array Methods
 
-// myArr.push(6)
-// myArr.push(7)
-// myArr.pop()
+// myArr.push(6)   //add
+// myArr.push(7)   //add
+// myArr.pop()    //remove
 
-// myArr.unshift(9)
-// myArr.shift()
+// myArr.unshift(9)   //ye array ke start mai insert karte hai 
+// myArr.shift()      
 
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(3));
 
-const newArr = myArr.join()
+const newArr = myArr.join()  //datatype change hoga 
 
 // console.log(myArr);
 // console.log(newArr);
