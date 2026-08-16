@@ -28,7 +28,7 @@ const newArr = myArr.join()  //datatype change hoga
 
 console.log("A", myArr); // inside original array
  
-const myn1 = myArr.slice(1,3) // inside original array
+const myn1 = myArr.slice(1,3) //do not change in original array
 
 console.log(myn1);
 console.log("B", myArr);
