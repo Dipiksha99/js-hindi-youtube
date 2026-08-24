@@ -17,13 +17,26 @@ const JsUser = {
     lastLoginDays: ["monday", "Saturday"]
 }  // {} is this a object
 
-console.log(JsUser.email)
-console.log(JsUser["email"])
-console.log(JsUser["full name"])
-// console.log(typeof JsUser.mySym)
-console.log(JsUser[mySym])
+// console.log(JsUser.email)  //jab bhi hum value ko access karenge to dot(.) se hi karenge. Kuch special cases hote hai jismai humai [square] bracket ka use karna padega
+// console.log(JsUser["email"])
+// console.log(JsUser["full name"])
+// // console.log(typeof JsUser.mySym)
+// console.log(JsUser[mySym])
 
 JsUser.email = "hitesh@chatgpt.com"
-Object.freeze(JsUser)
+// Object.freeze(JsUser)  // koi apne value ko change nhi kare isliye freeze ka use kara
 JsUser.email = "hitesh@microsoft.com"
-console.log(JsUser);
+// console.log(JsUser);
+
+//function add karenge
+JsUser.greeting = function(){
+    console.log("Hello JS User");
+}
+
+console.log(JsUser.greeting()); 
+
+JsUser.greetingTwo = function(){
+    console.log(`Hello JS User, ${this.name}`);
+}
+
+console.log(JsUser.greetingTwo()); 
