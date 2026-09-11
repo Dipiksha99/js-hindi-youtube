@@ -104,4 +104,4 @@ console.log(instructor); //isko bolate hai object ko restructure karna
 ]
 
 // https://randomuser.me/    :-> iska use karke api ka response lenge..
-// in api ko samajane ke liye json formatting
+// in api ko samajane ke liye json formatting https://jsonformatter.org/
