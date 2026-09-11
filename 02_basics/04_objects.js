@@ -68,7 +68,7 @@ users[1].email
 // console.log(tinderUser.hasOwnProperty('isLogged'));
 
 
-// Objects destructuring and JSON API
+// // //Objects destructuring and JSON API
 // destructuring:
 
 const course = {
@@ -79,7 +79,29 @@ const course = {
 
 // course.courseInstructor
 
+// const {courseInstructor} = course
+
 const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
-console.log(instructor);
+console.log(instructor); //isko bolate hai object ko restructure karna
+
+// js react method:-
+// const navbar = ({company}) => {   //props.cpmpany ye ase bhi  lihu shakatat react che example.}
+// navbar(company = "hitesh")
+
+// API = valiues comes by json trough
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},   
+    {}
+]
+
+// https://randomuser.me/    :-> iska use karke api ka response lenge..
+// in api ko samajane ke liye json formatting
